@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.northtower.Rio2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "861df8b6-7237-45df-aca4-3eb74adda0c6"
+      }
     }
   }
 }
